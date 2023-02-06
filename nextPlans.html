@@ -22,7 +22,7 @@
                             <li class="breadcrumb-item active" aria-current="page">Next Plans</li>
                             <li class="breadcrumb-item"><a href="index.html">Destinations</a></li>
                             <li class="breadcrumb-item"><a href="currentLocation.html">Current Location</a></li>
-                            <li class="breadcrumb-item"><a href="about-me.html">About me</a></li>
+                            <li class="breadcrumb-item"><a href="aboutMe.html">About me</a></li>
                         </ol>
                     </nav>
                     <div class="social-links">
@@ -45,39 +45,62 @@
 
         <section>
             <div class = "container">
-                <div class="next-trip">
-                    <header>
-                        <h1>Next trip already booked!</h1>
-                        <hr>
-                      </header>
+                <div class="row">
+                    <div class="next-trip">
+                        <header>
+                            <h1>Next trip already booked!</h1>
+                            <hr>
+                          </header>
+                    </div>
+
+                    <script src="https://www.wpromotions.eu/confetti.min.js"></script>
+                    <script>confetti.start();</script><script>setTimeout(function(){confetti.stop();},2000)</script>
+
+                  <div class = "content">
+                    <p>I am so excited to be visiting <a href = "https://www.google.com/maps/place/Miami,+Fl%C3%B3rida,+EUA/@25.884259,-79.6311195,9z/data=!4m5!3m4!1s0x88d9b0a20ec8c111:0xff96f271ddad4f65!8m2!3d25.7616798!4d-80.1917902">Miami</a> on February 21st! There are so many things on my must-see list for this trip.</p>
+
+                    <h3>South Beach</h3>
+
+                    <p>One of my top priorities is to visit the famous South Beach. I can't wait to feel the sand between my toes and take a dip in the crystal clear waters. I've heard the sunsets here are absolutely stunning, so I'll make sure to catch one while I'm there.</p>
+                    <img src="./images/south_beach.jpg" alt="South Beach Miami" class="miami_pic">
+                    <h3>Little Havana</h3>
+
+                    <p>I'm also really looking forward to experiencing the culture of Little Havana. I've heard that Calle Ocho is the place to be to check out street art, live music and authentic Cuban restaurants. I'm excited to try some of the local food and maybe even pick up some souvenirs to bring back home.</p>
+
+                    <h3>Everglades National Park</h3>
+
+                    <p>I'm also really interested in visiting the Everglades National Park. I've heard that this place is a nature lover's paradise and I can't wait to see alligators, panthers and other native wildlife.</p>
+                    <img src="./images/everglades_miami.jpg" alt="Everglades Park Miami" class="miami_pic">
+                    <h3>Perez Art Museum Miami and Adrienne Arsht Center</h3>
+
+                    <p>Perez Art Museum Miami and the Adrienne Arsht Center for the Performing Arts are also on my list</p>
+
+                    <p>I'll be sure to share my experiences and photos with you all, so stay tuned!</p>
+
                 </div>
-
-                <script src="https://www.wpromotions.eu/confetti.min.js"></script>
-                <script>confetti.start();</script><script>setTimeout(function(){confetti.stop();},2000)</script>
-
-              <div class = "content">
-                <p>I am so excited to be visiting <a href = "https://www.google.com/maps/place/Miami,+Fl%C3%B3rida,+EUA/@25.884259,-79.6311195,9z/data=!4m5!3m4!1s0x88d9b0a20ec8c111:0xff96f271ddad4f65!8m2!3d25.7616798!4d-80.1917902">Miami</a> on February 21st! There are so many things on my must-see list for this trip.</p>
-
-                <h3>South Beach</h3>
-
-                <p>One of my top priorities is to visit the famous South Beach. I can't wait to feel the sand between my toes and take a dip in the crystal clear waters. I've heard the sunsets here are absolutely stunning, so I'll make sure to catch one while I'm there.</p>
-
-                <h3>Little Havana</h3>
-
-                <p>I'm also really looking forward to experiencing the culture of Little Havana. I've heard that Calle Ocho is the place to be to check out street art, live music and authentic Cuban restaurants. I'm excited to try some of the local food and maybe even pick up some souvenirs to bring back home.</p>
-
-                <h3>Everglades National Park</h3>
-
-                <p>I'm also really interested in visiting the Everglades National Park. I've heard that this place is a nature lover's paradise and I can't wait to see alligators, panthers and other native wildlife.</p>
-
-                <h3>Perez Art Museum Miami and Adrienne Arsht Center</h3>
-
-                <p>Perez Art Museum Miami and the Adrienne Arsht Center for the Performing Arts are also on my list</p>
-
-                <p>I'll be sure to share my experiences and photos with you all, so stay tuned!</p>
+                <aside class="sidebar">
+                    <meta content="Sidebar">
+                    <div class ="side-block">
+                        <div class="side-content">
+                            <h3>Fly for cheap!</h3>
+                            <img src="/images/airplane_fly.jpg" alt="airplane">
+                            <div class="spacer"></div>
+                            <p>The way I use to make sure I always get the best deals is searching for flights in <a href="https://www.booking.com/" target="_blank">Skyscanner</a>, <a href="https://www.airbnb.com/" target="_blank">Google Flights</a> and <a href="https://www.kayak.com/" target="_blank">Kayak</a>. I use them to search and preferably book directly through the airline company to avoid the middle man (and more headaches) in case something goes wrong! Google Flights is my go-to in case I'm just searching without anything in mind since I can use their map to see the prices for every place and decide based on that. You can also make used of their price graphs to find the best dates to fly!</p>
+                            <p>For a place to stay, I use <a href="https://www.booking.com/" target="_blank">Booking.com</a> most of the times and make use of the Genius discount by having and account and booking through the app. But you can also check other websites such as AirBnb or Hotels.com</p>
+                        </div>
+                    </div>
+                </aside>
 
               </div>
             </section>
+            
+            <button class="back-to-top hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="back-to-top-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 11l5-5m0 0l5 5m-5-5v12" />
+                </svg>
+                <script src="button-top.js"></script>
+              </button>
+
             <footer class = "footer">
               <div class = "footer_text">
                   Copyright Tiago Lomba © 2023 All rights reserved.

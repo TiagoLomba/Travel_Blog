@@ -15,13 +15,54 @@ body
     padding-right: 30px;
 }
 
-.blog_post img{
+.blog_post{
+    position: relative;
+    min-height: 1px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+.blog_post img, .miami_pic{
     display: block;
     margin-left: auto;
     margin-right: auto;
     height: auto;
     width: auto;
     max-width:100%;
+}
+
+
+.row {
+    margin-left: -30px;
+    margin-right: -30px;
+    display: block;
+
+}
+
+
+.sidebar{
+
+    display: block;
+    position: relative;
+    min-height: 1px;
+    padding-right: 30px;
+    padding-left: 30px;
+    height: auto;
+}
+
+
+
+.side-block{
+    padding-top: 24px;
+    margin-top: 24px;
+    border-top: 6px solid #333;
+    border-top-style: solid !important;
+}
+.sidebar img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: bottom;
 }
 
 .text
@@ -106,8 +147,6 @@ padding-right: 10px;
     line-height: 1.1em
 }
 
-
-
 h3{
     font-size: 24px;
 }
@@ -117,18 +156,24 @@ h3{
 	border-width: 6px;
 }
 
-.content a, .about-me-first a{
+.content a, .about-me-first a, .content-ind a{
     color: #2cb1c9
 }
 
-.about-me-first a:hover{
+
+
+.about-me-first a:hover, .content a:hover, .content-ind a:hover, .side-content a:hover{
     text-decoration: underline;
 }
 
+.side-content a{
+    color: grey;
+}
 
 .footer{
-    color: #9a9a9a
+    color: #9a9a9a;
 }
+
 
 .footer_text{
     text-align: center;
@@ -295,4 +340,23 @@ b:hover{
     64%      { color: #b10dc9; }
     80%      { color: #ff4136; }
   }
+
+
+@media (min-width: 992px){
+.content{
+    float: left;
+    width: 75%;}
+}
+
+
+
+@media (min-width: 992px){
+.sidebar{
+    float: left;
+    width: 25%;
+}
+.row{
+    overflow: auto;
+}
+}
 
